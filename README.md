@@ -1,4 +1,4 @@
-# crn-graphql
+# crwn-graphql
 
 > a React store with GraphQL backend
 

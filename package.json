@@ -20,6 +20,7 @@
     "reselect": "4.0.0"
   },
   "devDependencies": {
+    "prettier-eslint-cli": "^5.0.0",
     "react-scripts": "3.0.0"
   },
   "resolutions": {
@@ -29,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier-eslint \"src/**/*.js\""
   },
   "eslintConfig": {
     "extends": "react-app"
