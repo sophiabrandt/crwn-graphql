@@ -31,7 +31,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
+    "lint-staged": {
+      "*": "yarn run format"
   },
   "eslintConfig": {
     "extends": "react-app"
