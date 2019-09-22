@@ -32,12 +32,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
-    "husky": {
-      "hooks": {
-        "pre-commit": "yarn run format",
-        "pre-push": "yarn run format"
-      }
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run format",
+      "pre-push": "yarn run format"
     }
   },
   "eslintConfig": {
