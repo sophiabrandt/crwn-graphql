@@ -4,7 +4,7 @@ import { gql } from 'apollo-boost'
 
 import CartIcon from './cart-icon.component'
 
-const compose = (...fns) => x => fns.reduceRight((y, f) => f(y), x)
+const compose = (...fns) => (x) => fns.reduceRight((y, f) => f(y), x)
 
 const TOGGLE_CART_HIDDEN = gql`
   mutation ToggleCartHidden {
